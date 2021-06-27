@@ -21,23 +21,22 @@ Model compares 6 approches:
 
 Prediction results from both, Gradient Boosting Classifier and MLP Neural Network Classifier are represented in an analytical dashboard.
 
-The model result is a .csv file that is visualized on an analytical dashboard. 
-
-[Short video of product description for Rosatom CEO (Alexey Likhachev)](https://user-images.githubusercontent.com/6107160/123541038-e5547000-d74a-11eb-9464-9e36329f4a12.mp4)
+[RUS Rosenergoatom JSC presentation](https://github.com/Konstantin-Parfenov/Konstantin-Parfenov.github.io/files/6722061/_._.pptx)
+[RUS Short video of product description for Rosatom CEO (Alexey Likhachev)](https://user-images.githubusercontent.com/6107160/123541038-e5547000-d74a-11eb-9464-9e36329f4a12.mp4)
 
 ### Sibur PET-price Prediction
-[PET price price prediction dashboard for Sibur analytics.] (https://siburdashboard.herokuapp.com/#)  Created in 2019 at Sibur Hackathon. 
-
+[PET price price prediction dashboard for Sibur analytics.](https://siburdashboard.herokuapp.com/#)  Created in 2019 at Sibur Hackathon. 
+[Github](https://github.com/Konstantin-Parfenov/Sibur_dashboard)
 ![Dashboard image](https://user-images.githubusercontent.com/6107160/123554092-266a7580-d787-11eb-9ede-6b09d4d6df0a.jpg)
 
 
 Features:
 
-* Predictions based on Exponential Moving Average (EMA) and Simple Moving Average (SMA).https://siburdashboard.herokuapp.com/forecast_chart/EMA
-* Feature importances graph. https://siburdashboard.herokuapp.com/forecast_pie
+* [Predictions based on Exponential Moving Average (EMA) and Simple Moving Average (SMA)](https://siburdashboard.herokuapp.com/forecast_chart/EMA)
+* [Feature importances graph](https://siburdashboard.herokuapp.com/forecast_pie)
 * Dashboard built using flask model view controller structure and javascript.
 * Deploy on heroku via heroku CLI.
-* Frontend theme is a modified free template from https://www.creative-tim.com/
+* Frontend theme is a modified free template from [Creative Tim](https://www.creative-tim.com/)
 
 ### Sibur Fraction Mix Prediction
 
