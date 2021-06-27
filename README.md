@@ -10,13 +10,14 @@ Fundamental data extracting and transformation procedures are written in SAS Bas
 
 Python script, which executes on a dedicated runtime described in the environment management tab, performs further data transformation, data cleaning, and data quality check. 
 
-Model compares 6 approches.
-*Logistic Regression
-*Knearest Neighbours
-*Support Vector Classifier
-*Decision Tree Classifier
-*MLP Neural Network Classifier
-*Gradient Boosting Classifier
+Model compares 6 approches:
+
+* Logistic Regression
+* Knearest Neighbours
+* Support Vector Classifier
+* Decision Tree Classifier
+* MLP Neural Network Classifier
+* Gradient Boosting Classifier
 
 Prediction results from both, Gradient Boosting Classifier and MLP Neural Network Classifier are represented in an analytical dashboard.
 
@@ -26,14 +27,20 @@ The model result is a .csv file that is visualized on an analytical dashboard.
 
 ### Sibur PET-price Prediction
 
-### Sibur Farction Mix Prediction
+
+### Sibur Fraction Mix Prediction
 
 ### DMP-System user classifiation
 
 
-## RecSys for videocontent Megafon
+## 
 
 ## Big data Spark Projects
+
+### RecSys for videocontent Megafon
+Task is to create best RecSys algorithm based on RMSE metrics.
+Data on HDFS. Result RMSE<0.83
+[Github](https://github.com/Konstantin-Parfenov/RMSE_rec_sys/blob/main/Rec_sys.ipynb)
 
 ###
 
