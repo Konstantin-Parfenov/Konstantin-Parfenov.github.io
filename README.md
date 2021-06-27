@@ -4,8 +4,9 @@ This portfolio is a compilation of my data science and machine learning projects
 
 ## Stand-alone projects.
 ### Energy market counterparty bankruptcy prediction analytics system 
-Client: Rosenergoatom JSC
-Stack: SAS,Python,IBM-Datapak
+This is my project for Rosenergoatom JSC using classification methods in production.
+
+Main ETL procedures are written in SAS Base/Macro language and scheduled daily. Scripts combine raw payment data, data from corporate sources, various scrapped data from .pdf and .html files and put in an Oracle database. The connection between Oracle database and Atomcloud ("IBM Cloudpak for data" deployed on [Data center Kalininsky](https://www.rosenergoatom.ru/stations_projects/opornyy-tsod/)) approved by internal Information Security Department.
 
 [Short video of product description for Rosatom CEO (Alexey Likhachev)](https://user-images.githubusercontent.com/6107160/123541038-e5547000-d74a-11eb-9464-9e36329f4a12.mp4)
 
