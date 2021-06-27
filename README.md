@@ -10,8 +10,6 @@ Fundamental data extracting and transformation procedures are written in SAS Bas
 
 Python script, which executes on a dedicated runtime described in the environment management tab, performs further data transformation, data cleaning, and data quality check. 
 
-
-
 Model compares 6 approches:
 * Logistic Regression
 * Knearest Neighbours
@@ -26,9 +24,7 @@ Core Features:
 * SMOTE approach to imbalanced classification
 * Web application for analytics with visualisation
  
-
 Prediction results from both, Gradient Boosting Classifier and MLP Neural Network Classifier are represented in an analytical dashboard.
-
 
 Pesentation and media files:
 * [RUS Rosenergoatom JSC presentation](https://github.com/Konstantin-Parfenov/Konstantin-Parfenov.github.io/files/6722061/_._.pptx)
@@ -38,7 +34,6 @@ Pesentation and media files:
 [PET price price prediction dashboard for Sibur analytics.](https://siburdashboard.herokuapp.com/#)  Created in 2019 at Sibur Hackathon. 
 [Github](https://github.com/Konstantin-Parfenov/Sibur_dashboard)
 ![Dashboard image](https://user-images.githubusercontent.com/6107160/123554092-266a7580-d787-11eb-9ede-6b09d4d6df0a.jpg)
-
 
 Features:
 * [Predictions based on Exponential Moving Average (EMA) and Simple Moving Average (SMA)](https://siburdashboard.herokuapp.com/forecast_chart/EMA)
@@ -50,6 +45,12 @@ Features:
 ### Sibur Fraction Mix Prediction
 
 ### DMP-System user classifiation
+[Github](https://github.com/Konstantin-Parfenov/DMP_sys_prediction)
+
+The task of this project was to make a python script to classify the age group and sex group of a user based on his browser history. This script is intended to run in a cron job and the input is from Standard input (stdin)ю
+Besides the ROC-AUC treshold this model has SLA for each prediction of 0.04 seconds.
+
+Me and my team made two approaches. First approach was the Neural Network approach. Model was built with tensorflow and has compareable results, however it was computational heavy to meet SLA limits. Second approach was with XGBoost algorythm. The accuracy and speed of this model was enough to meet the task requirements. Another notable decision was to scrap yandex categries for top 100 sites in each category and use this data during the training process of our model. 
 
 
 ## 
@@ -68,7 +69,7 @@ Data on HDFS. Result RMSE<0.83
 ## Kaggle competitions.
 ### OSIC Pulmonary Fibrosis Progression
 [Silver medal for lung function decline prediction.](https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression/leaderboard)
-[Code](https://www.kaggle.com/konstantinparfenov/lasso-baseline?scriptVersionId=38441312
+[Code](https://www.kaggle.com/konstantinparfenov/lasso-baseline?scriptVersionId=38441312)
 Model: Optimized baseline Lasso Regression model
 
 The aim of this competition is to predict a patient’s severity of decline in lung function based on a CT scan of their lungs. Lung function is assessed based on output from a spirometer, which measures the forced vital capacity (FVC), i.e. the volume of air exhaled.
