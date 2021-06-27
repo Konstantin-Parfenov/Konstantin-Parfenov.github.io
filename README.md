@@ -4,10 +4,10 @@ This portfolio is a compilation of my data science and machine learning projects
 
 ## Stand-alone projects.
 ### Energy market counterparty bankruptcy prediction analytics system 
-:factory: Client Rosenergoatom JSC
-SAS Python IBM-Datapak
+Client: Rosenergoatom JSC
+Stack: SAS,Python,IBM-Datapak
 
-[Short video of product description for Rosatom CEO (Alexey Likhachev)] (https://user-images.githubusercontent.com/6107160/123541038-e5547000-d74a-11eb-9464-9e36329f4a12.mp4)
+[Short video of product description for Rosatom CEO (Alexey Likhachev)](https://user-images.githubusercontent.com/6107160/123541038-e5547000-d74a-11eb-9464-9e36329f4a12.mp4)
 
 ### Sibur PET-price Prediction
 
