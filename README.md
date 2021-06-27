@@ -42,8 +42,6 @@ Features:
 * Deploy on heroku via heroku CLI.
 * Frontend theme is a modified free template from [Creative Tim](https://www.creative-tim.com/)
 
-### Sibur Fraction Mix Prediction
-
 ### DMP-System user classifiation
 [Github](https://github.com/Konstantin-Parfenov/DMP_sys_prediction)
 
@@ -52,17 +50,17 @@ Besides the ROC-AUC treshold this model has SLA for each prediction of 0.04 seco
 
 Me and my team made two approaches. First approach was the Neural Network approach. Model was built with tensorflow and has compareable results, however it was computational heavy to meet SLA limits. Second approach was with XGBoost algorythm. The accuracy and speed of this model was enough to meet the task requirements. Another notable decision was to scrap yandex categries for top 100 sites in each category and use this data during the training process of our model. 
 
-
-## 
-
 ## Big data Spark Projects
 
 ### RecSys for videocontent Megafon
 
 [Github](https://github.com/Konstantin-Parfenov/RMSE_rec_sys/blob/main/Rec_sys.ipynb)
 
-Task is to create the best RecSys algorithm based on RMSE metrics.
-Data on HDFS. Result RMSE<0.83
+The task was to create the best RecSys algorithm based on RMSE metrics. 
+Data sources: Film rating table, User text tags for each film, Movie description table, table with films id connected to IMDB database.
+Data on HDFS.
+
+Result RMSE<0.83
 
 ### 
 
