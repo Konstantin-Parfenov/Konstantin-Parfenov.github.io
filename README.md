@@ -26,7 +26,18 @@ The model result is a .csv file that is visualized on an analytical dashboard.
 [Short video of product description for Rosatom CEO (Alexey Likhachev)](https://user-images.githubusercontent.com/6107160/123541038-e5547000-d74a-11eb-9464-9e36329f4a12.mp4)
 
 ### Sibur PET-price Prediction
+[PET price price prediction dashboard for Sibur analytics.] (https://siburdashboard.herokuapp.com/#)  Created in 2019 at Sibur Hackathon. 
 
+![Dashboard image](https://user-images.githubusercontent.com/6107160/123554092-266a7580-d787-11eb-9ede-6b09d4d6df0a.jpg)
+
+
+Features:
+
+* Predictions based on Exponential Moving Average (EMA) and Simple Moving Average (SMA).https://siburdashboard.herokuapp.com/forecast_chart/EMA
+* Feature importances graph. https://siburdashboard.herokuapp.com/forecast_pie
+* Dashboard built using flask model view controller structure and javascript.
+* Deploy on heroku via heroku CLI.
+* Frontend theme is a modified free template from https://www.creative-tim.com/
 
 ### Sibur Fraction Mix Prediction
 
@@ -41,10 +52,10 @@ The model result is a .csv file that is visualized on an analytical dashboard.
 
 [Github](https://github.com/Konstantin-Parfenov/RMSE_rec_sys/blob/main/Rec_sys.ipynb)
 
-Task is to create best RecSys algorithm based on RMSE metrics.
+Task is to create the best RecSys algorithm based on RMSE metrics.
 Data on HDFS. Result RMSE<0.83
 
-###
+### 
 
 ## Kaggle competitions.
 
@@ -54,32 +65,4 @@ Data on HDFS. Result RMSE<0.83
 
 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Konstantin-Parfenov/Konstantin-Parfenov.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
