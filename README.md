@@ -67,8 +67,9 @@ Data on HDFS. Result RMSE<0.83
 
 ## Kaggle competitions.
 ### OSIC Pulmonary Fibrosis Progression
-::medal:: [Silver medal for lung function decline prediction.]
+[Silver medal for lung function decline prediction.](https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression/leaderboard)
 [Code](https://www.kaggle.com/konstantinparfenov/lasso-baseline?scriptVersionId=38441312
+Model: Optimized baseline Lasso Regression model
 
 The aim of this competition is to predict a patient’s severity of decline in lung function based on a CT scan of their lungs. Lung function is assessed based on output from a spirometer, which measures the forced vital capacity (FVC), i.e. the volume of air exhaled.
 
