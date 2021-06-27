@@ -4,9 +4,23 @@ This portfolio is a compilation of my data science and machine learning projects
 
 ## Stand-alone projects.
 ### Energy market counterparty bankruptcy prediction analytics system 
-This is my project for Rosenergoatom JSC using classification methods in production.
+A client for this project is Rosenergoatom JSC. The task is to predict bankruptcy for a counterparty on a Russian wholesales energy and capacity market. 
 
-Main ETL procedures are written in SAS Base/Macro language and scheduled daily. Scripts combine raw payment data, data from corporate sources, various scrapped data from .pdf and .html files and put in an Oracle database. The connection between Oracle database and Atomcloud ("IBM Cloudpak for data" deployed on [Data center Kalininsky](https://www.rosenergoatom.ru/stations_projects/opornyy-tsod/)) approved by internal Information Security Department.
+Fundamental data extracting and transformation procedures are written in SAS Base/Macro language and scheduled daily. Scripts combine raw payment data, data from corporate sources, various scrapped data from .pdf and .html files and put them in an Oracle database. The connection between Oracle database and Atomcloud ("IBM Cloudpak for data" deployed on [Data center Kalininsky](https://www.rosenergoatom.ru/stations_projects/opornyy-tsod/)) approved by the internal Information Security Department.
+
+Python script, which executes on a dedicated runtime described in the environment management tab, performs further data transformation, data cleaning, and data quality check. 
+
+Model compares 6 approches.
+*Logistic Regression
+*Knearest Neighbours
+*Support Vector Classifier
+*Decision Tree Classifier
+*MLP Neural Network Classifier
+*Gradient Boosting Classifier
+
+Prediction results from both, Gradient Boosting Classifier and MLP Neural Network Classifier are represented in an analytical dashboard.
+
+The model result is a .csv file that is visualized on an analytical dashboard. 
 
 [Short video of product description for Rosatom CEO (Alexey Likhachev)](https://user-images.githubusercontent.com/6107160/123541038-e5547000-d74a-11eb-9464-9e36329f4a12.mp4)
 
