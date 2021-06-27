@@ -1,10 +1,34 @@
-## Welcome to GitHub Pages
+# Data science portfolio by Konstantin Parfenov
 
-You can use the [editor on GitHub](https://github.com/Konstantin-Parfenov/Konstantin-Parfenov.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This portfolio is a compilation of my data science and machine learning projects in recent years.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Stand-alone projects.
+### Energy market counterparty bankruptcy prediction analytics system 
+:factory: Client Rosenergoatom JSC
+SAS Python IBM-Datapak
 
-### Markdown
+[Short video of product description for Rosatom CEO (Alexey Likhachev)] (https://user-images.githubusercontent.com/6107160/123541038-e5547000-d74a-11eb-9464-9e36329f4a12.mp4)
+
+### Sibur PET-price Prediction
+
+### Sibur Farction Mix Prediction
+
+### DMP-System user classifiation
+
+
+## RecSys for videocontent Megafon
+
+## Big data Spark Projects
+
+###
+
+## Kaggle competitions.
+
+
+
+
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
