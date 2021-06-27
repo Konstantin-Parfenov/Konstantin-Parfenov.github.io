@@ -38,9 +38,11 @@ The model result is a .csv file that is visualized on an analytical dashboard.
 ## Big data Spark Projects
 
 ### RecSys for videocontent Megafon
+
+[Github](https://github.com/Konstantin-Parfenov/RMSE_rec_sys/blob/main/Rec_sys.ipynb)
+
 Task is to create best RecSys algorithm based on RMSE metrics.
 Data on HDFS. Result RMSE<0.83
-[Github](https://github.com/Konstantin-Parfenov/RMSE_rec_sys/blob/main/Rec_sys.ipynb)
 
 ###
 
