@@ -57,12 +57,23 @@ Me and my team made two approaches. First approach was the Neural Network approa
 [Github](https://github.com/Konstantin-Parfenov/RMSE_rec_sys/blob/main/Rec_sys.ipynb)
 
 The task was to create the best RecSys algorithm based on RMSE metrics. 
-Data sources: Film rating table, User text tags for each film, Movie description table, table with films id connected to IMDB database.
 Data on HDFS.
+Data sources:
+* Film rating table
+* User text tags for each film
+* Movie description table
+* Table with films id connected to IMDB database.
+
+Model Used: Alternating Least Square (ALS) a matrix factorization algorithm.
 
 Result RMSE<0.83
 
-### 
+### Content-based RecSys for e-learning courses 
+
+[Github](https://github.com/Konstantin-Parfenov/e_learning_recsys)
+
+The task was to create content-based RecSys algorithm for e-learning portal eclass.cc 
+Model Used: 1st Approach - TF-IDF 
 
 ## Kaggle competitions.
 ### OSIC Pulmonary Fibrosis Progression
