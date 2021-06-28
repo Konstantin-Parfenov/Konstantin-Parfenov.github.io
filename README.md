@@ -20,13 +20,13 @@ Model compares 6 approches:
 * MLP Neural Network Classifier
 * Gradient Boosting Classifier
 
-Core Features:
+Prediction results from both, Gradient Boosting Classifier and MLP Neural Network Classifier are represented in an analytical dashboard. 
+
+Core Project Features:
 * Data quality and logging
 * Scheduled daily model update
 * SMOTE approach to imbalanced classification
 * Web application for analytics with visualization
- 
-Prediction results from both, Gradient Boosting Classifier and MLP Neural Network Classifier are represented in an analytical dashboard. 
 
 Team: Konstantin Parfenov, Vladislav Vedenev, Andrey Revyakin
 
@@ -52,13 +52,12 @@ Features:
 ### DMP-System user classification
 [Github](https://github.com/Konstantin-Parfenov/DMP_sys_prediction)
 
-Team:
-Konstantin Parfenov, Yuriy Kostyushko
+Team:Konstantin Parfenov, Yuriy Kostyushko, Anatoliy Kurtov
 
 The task of this project was to make a python script to classify the age group and sex group of a user based on his browser history. This script is intended to run in a cron job and the input is from Standard input (stdin)ю
 Besides the ROC-AUC treshold, this model has SLA for each prediction of 0.04 seconds.
 
-I and my team made two approaches. The first approach was the Neural Network approach. The model was built with TensorFlow and has comparable results however, it was computational heavy to meet SLA limits. The second approach was with the XGBoost algorithm. The accuracy and speed of this model were enough to meet the task requirements. Another notable decision was to scrap Yandex categories for the top 100 sites in each category and use this data during the training process of our model. 
+I and my team made three approaches. The first approach was the Neural Network approach. The model was built with TensorFlow and has comparable results however, it was computational heavy to meet SLA limits. The second approach was with the XGBoost algorithm. The accuracy and speed of this model were enough to meet the task requirements. In the third approach we used "bag of words" algorithm unfortunately, the accuracy of this model was insufficient. Another notable decision was to scrap Yandex categories for the top 100 sites in each category and use this data during the training process of our model. 
 
 ## Big data Spark Projects
 
@@ -81,7 +80,7 @@ Result RMSE<0.83
 ### Content-based RecSys for e-learning courses 
 [Github](https://github.com/Konstantin-Parfenov/e_learning_recsys)
 
-Team: Konstantin Parfenov, Yuriy Kostyushko, Anatoliy Kurtov
+Team: Konstantin Parfenov, Yuriy Kostyushko, 
 
 The task was to create a content-based RecSys algorithm for the e-learning portal "eclass.cc" 
 Model Used:TF-IDF 
