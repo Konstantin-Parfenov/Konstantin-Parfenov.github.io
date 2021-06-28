@@ -6,6 +6,8 @@ This portfolio is a compilation of my data science and machine learning projects
 ### Energy market counterparty bankruptcy prediction analytics system 
 A client for this project is Rosenergoatom JSC. The task is to predict bankruptcy for a counterparty on a Russian wholesales energy and capacity market. 
 
+![ML_wholesales_energy_market_prediction](https://user-images.githubusercontent.com/6107160/123590996-25236200-d7f4-11eb-9edb-fb3d6d3800fe.gif)
+
 Fundamental data extracting and transformation procedures are written in SAS Base/Macro language and scheduled daily. Scripts combine raw payment data, data from corporate sources, various scrapped data from .pdf and .html files and put them in an Oracle database. The connection between Oracle database and Atomcloud ("IBM Cloudpak for data" deployed on [Data center Kalininsky](https://www.rosenergoatom.ru/stations_projects/opornyy-tsod/)) was approved by the internal Information Security Department.
 
 Python script, which executes on a dedicated runtime described in the environment management tab, performs further data transformation, data cleaning, and data quality check. 
@@ -24,7 +26,9 @@ Core Features:
 * SMOTE approach to imbalanced classification
 * Web application for analytics with visualization
  
-Prediction results from both, Gradient Boosting Classifier and MLP Neural Network Classifier are represented in an analytical dashboard.
+Prediction results from both, Gradient Boosting Classifier and MLP Neural Network Classifier are represented in an analytical dashboard. 
+
+Team: Konstantin Parfenov, Vladislav Vedenev, Andrey Revyakin
 
 Presentation and media files:
 * [RUS Rosenergoatom JSC presentation](https://github.com/Konstantin-Parfenov/Konstantin-Parfenov.github.io/files/6722061/_._.pptx)
@@ -33,6 +37,9 @@ Presentation and media files:
 ### Sibur PET-price Prediction
 [PET price prediction dashboard for Sibur analytics.](https://siburdashboard.herokuapp.com/#)  Created in 2019 at Sibur Hackathon. 
 [Github](https://github.com/Konstantin-Parfenov/Sibur_dashboard)
+
+Team: Konstantin Parfenov, Arthur Y. (telegram @art213)
+
 ![Dashboard image](https://user-images.githubusercontent.com/6107160/123554092-266a7580-d787-11eb-9ede-6b09d4d6df0a.jpg)
 
 Features:
@@ -44,6 +51,9 @@ Features:
 
 ### DMP-System user classification
 [Github](https://github.com/Konstantin-Parfenov/DMP_sys_prediction)
+
+Team:
+Konstantin Parfenov, Yuriy Kostyushko
 
 The task of this project was to make a python script to classify the age group and sex group of a user based on his browser history. This script is intended to run in a cron job and the input is from Standard input (stdin)ю
 Besides the ROC-AUC treshold, this model has SLA for each prediction of 0.04 seconds.
@@ -69,11 +79,22 @@ Model Used: Alternating Least Square (ALS) a matrix factorization algorithm.
 Result RMSE<0.83
 
 ### Content-based RecSys for e-learning courses 
-
 [Github](https://github.com/Konstantin-Parfenov/e_learning_recsys)
 
+Team: Konstantin Parfenov, Yuriy Kostyushko, Anatoliy Kurtov
+
 The task was to create a content-based RecSys algorithm for the e-learning portal "eclass.cc" 
-Model Used: 1st Approach - TF-IDF 
+Model Used:TF-IDF 
+
+### Apache Hive user classifiaction for DMP system
+[Github](https://github.com/Konstantin-Parfenov/Apach_Hive_user_classifiaction)
+
+The task was to classify internet users in groups based on their browser history and define domain relevance to a user group "motorist". 
+
+I solved this task using Apache Hive. Files were in HDFS directory. Each file was a collection of logs represented as a tuple (UID, timestamp, URL).
+Algorithm for domain definition (https://en.wikipedia.org/wiki/Bit_array)
+
+
 
 ## Kaggle competitions.
 ### OSIC Pulmonary Fibrosis Progression
