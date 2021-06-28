@@ -25,7 +25,7 @@ Prediction results from both, Gradient Boosting Classifier and MLP Neural Networ
 Core Project Features:
 * Data quality and logging
 * Scheduled daily model update
-* SMOTE approach to imbalanced classification
+* [SMOTE approach to imbalanced classification](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/)
 * Web application for analytics with visualization
 
 Team: Konstantin Parfenov, Vladislav Vedenev, Andrey Revyakin
