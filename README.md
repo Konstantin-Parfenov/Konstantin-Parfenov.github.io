@@ -91,7 +91,7 @@ Model Used:TF-IDF
 The task was to classify internet users in groups based on their browser history and define domain relevance to a user group "motorist". 
 
 I solved this task using Apache Hive. Files were in HDFS directory. Each file was a collection of logs represented as a tuple (UID, timestamp, URL).
-Algorithm for domain definition (https://en.wikipedia.org/wiki/Bit_array)
+[Algorithm for domain definition](https://en.wikipedia.org/wiki/Bit_array)
 
 
 
