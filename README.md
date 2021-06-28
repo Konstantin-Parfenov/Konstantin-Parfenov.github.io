@@ -82,7 +82,8 @@ Result RMSE<0.83
 
 Team: Konstantin Parfenov, Yuriy Kostyushko, 
 
-The task was to create a content-based RecSys algorithm for the e-learning portal "eclass.cc" 
+The task was to create a content-based RecSys algorithm for the e-learning portal "eclass.cc"
+
 Model Used:TF-IDF 
 
 ### Apache Hive user classifiaction for DMP system
@@ -98,7 +99,9 @@ I solved this task using Apache Hive. Files were in HDFS directory. Each file wa
 ## Kaggle competitions.
 ### OSIC Pulmonary Fibrosis Progression
 [Silver medal for lung function decline prediction.](https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression/leaderboard)
+
 [Code](https://www.kaggle.com/konstantinparfenov/lasso-baseline?scriptVersionId=38441312)
+
 Model: Optimized baseline Lasso Regression model
 
 The aim of this competition is to predict a patient’s severity of decline in lung function based on a CT scan of their lungs. Lung function is assessed based on output from a spirometer, which measures the forced vital capacity (FVC), i.e. the volume of air exhaled.
